@@ -1,0 +1,214 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: black;
+}
+
+/*--------HEADER---------*/
+header {
+  background-color: rgb(255, 123, 0);
+  position: sticky;
+  top: 0%;
+}
+
+.logo {
+  background-color: rgb(0, 0, 0);
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoimg {
+  height: 120px;
+  width: 120px;
+}
+.barraNavegacion__lista{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.barraNavegacion__lista li {
+  display: inline-block;
+  margin: 20px;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  list-style: none;
+}
+.barraNavegacion__submenu{
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: rgb(255, 123, 0);
+}
+.barraNavegacion__lista--submenu{
+  position: relative;
+}
+
+.barraNavegacion__lista--submenu:hover .barraNavegacion__submenu{
+  display: block;
+}
+
+nav {
+  display: inline-block;
+  width: fit-content;
+  margin-left: 36%;
+}
+
+
+/*--------IMAGENES PCS---*/
+
+.img1 {
+  display: block;
+  margin-left: 100px;
+}
+
+.pc5 {
+  padding-left: 100px;
+}
+
+.pc6 {
+  padding-left: 100px;
+}
+/*--------PARRAFOS-------*/
+.parrafo1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  color: rgb(255, 123, 0);
+  padding-top: 40px;
+}
+
+.tituloReactor {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(255, 123, 0);
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nuestrosProyectos {
+  color: rgb(255, 123, 0);
+  text-align: center;
+  padding-top: 60px;
+  font-size: xx-large;
+}
+
+.textoVideos1 {
+  color: rgb(255, 123, 0);
+  text-align: center;
+  font-size: x-large;
+  padding-top: 50px;
+}
+
+.textoImagenes1 {
+  color: rgb(255, 123, 0);
+  text-align: center;
+  font-size: x-large;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.textoContactos {
+  color: rgb(255, 123, 0);
+}
+/*-------FOOTER--------*/
+.footerContactos {
+  text-align: center;
+}
+
+
+footer {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/*--------VIDEOS--------*/
+.videos {
+  display: flex;
+
+}
+/*--------CONTACTO------*/
+.tituloContacto {
+  color: rgb(255, 123, 0);
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mapa{
+  display: flex;
+  margin: 0 auto;
+}
+/*------FORMULARIO-CONTACTO-----*/
+.form1 {
+  width: 340px;
+  height: 440px;
+  background: rgb(255, 123, 0);
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: 0 auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.formh2 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: black;
+  border-bottom: 3px solid black;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  transition: all .3s;
+  border-bottom: 2px solid black;
+}
+
+input:focus {
+  border-bottom: 2px solid black
+}
+
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: black
+}
+
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid black;
+  background: 0;
+  color: black;
+  cursor: pointer;
+  transition: all .3s
+}
+
+button:hover {
+  background: black;
+  color: rgb(255, 123, 0);
+}
+
+/*-------IMAGENES-HARDWARE-------*/
+.imgMicro{
+  background-color: black;
+  display: flex;
+  justify-content:space-around;
+  margin-top: 120px;
+}
