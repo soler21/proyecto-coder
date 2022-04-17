@@ -163,7 +163,7 @@ footer {
   border-bottom: 3px solid black;
 }
 
-input {
+.inputForm1 {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
@@ -176,11 +176,11 @@ input {
   border-bottom: 2px solid black;
 }
 
-input:focus {
+.inputForm1:focus {
   border-bottom: 2px solid black
 }
 
-p:before {
+.pForm:before {
   content: attr(type);
   display: block;
   margin: 28px 0 0;
@@ -188,7 +188,7 @@ p:before {
   color: black
 }
 
-button {
+.botonContacto {
   float: right;
   padding: 8px 12px;
   margin: 8px 0 0;
@@ -200,15 +200,61 @@ button {
   transition: all .3s
 }
 
-button:hover {
+.botonContacto:hover {
   background: black;
   color: rgb(255, 123, 0);
 }
 
 /*-------IMAGENES-HARDWARE-------*/
-.imgMicro{
-  background-color: black;
+
+.imagenesHardware{
+  display: grid;
+  margin-top: 50px;
+  padding: 30px;
+  justify-content: center;
+}
+.contimg1{
+  display: grid;
+  grid-template-columns: 1;
+  gap: 10px;
+}
+
+.botonCarro1{
   display: flex;
-  justify-content:space-around;
-  margin-top: 120px;
+  background-color: rgb(255, 123, 0);
+  width: 500px;
+}
+
+.botonCarro2{
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid black;
+  background: 0;
+  color: black;
+  cursor: pointer;
+  transition: all .3s
+}
+.botonCarro2:hover{
+  background: black;
+  color: rgb(255, 123, 0);
+}
+
+.tituloP{
+  color: black;
+}
+.precio{
+  color: black;
+}
+
+.descCard{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mothers{
+  margin-bottom: 10px;
 }
