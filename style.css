@@ -26,7 +26,8 @@ header {
   height: 120px;
   width: 120px;
 }
-.barraNavegacion__lista{
+
+.barraNavegacion__lista {
   display: flex;
   justify-content: space-evenly;
 }
@@ -35,20 +36,22 @@ header {
   display: inline-block;
   margin: 20px;
   text-decoration: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Cinzel', serif;
   list-style: none;
 }
-.barraNavegacion__submenu{
+
+.barraNavegacion__submenu {
   display: none;
   position: absolute;
   color: black;
   background-color: rgb(255, 123, 0);
 }
-.barraNavegacion__lista--submenu{
+
+.barraNavegacion__lista--submenu {
   position: relative;
 }
 
-.barraNavegacion__lista--submenu:hover .barraNavegacion__submenu{
+.barraNavegacion__lista--submenu:hover .barraNavegacion__submenu {
   display: block;
 }
 
@@ -73,12 +76,13 @@ nav {
 .pc6 {
   padding-left: 100px;
 }
+
 /*--------PARRAFOS-------*/
 .parrafo1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: left;
   color: rgb(255, 123, 0);
   padding-top: 40px;
+  font-family: 'Cinzel', serif;
 }
 
 .tituloReactor {
@@ -86,7 +90,7 @@ nav {
   text-align: center;
   color: rgb(255, 123, 0);
   font-size: xx-large;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Cinzel', serif;
 }
 
 .nuestrosProyectos {
@@ -94,6 +98,7 @@ nav {
   text-align: center;
   padding-top: 60px;
   font-size: xx-large;
+  font-family: 'Cinzel', serif;
 }
 
 .textoVideos1 {
@@ -101,6 +106,7 @@ nav {
   text-align: center;
   font-size: x-large;
   padding-top: 50px;
+  font-family: 'Cinzel', serif;
 }
 
 .textoImagenes1 {
@@ -109,11 +115,14 @@ nav {
   font-size: x-large;
   padding-top: 50px;
   padding-bottom: 50px;
+  font-family: 'Cinzel', serif;
 }
 
 .textoContactos {
   color: rgb(255, 123, 0);
+  font-family: 'Cinzel', serif;
 }
+
 /*-------FOOTER--------*/
 .footerContactos {
   text-align: center;
@@ -124,23 +133,28 @@ footer {
   background-color: black;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: 'Cinzel', serif;
 }
+
 /*--------VIDEOS--------*/
 .videos {
   display: flex;
 
 }
+
 /*--------CONTACTO------*/
 .tituloContacto {
   color: rgb(255, 123, 0);
   text-align: center;
   padding-top: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Cinzel', serif;
 }
-.mapa{
+
+.mapa {
   display: flex;
   margin: 0 auto;
 }
+
 /*------FORMULARIO-CONTACTO-----*/
 .form1 {
   width: 340px;
@@ -207,25 +221,26 @@ footer {
 
 /*-------IMAGENES-HARDWARE-------*/
 
-.imagenesHardware{
+.imagenesHardware {
   display: grid;
   margin-top: 50px;
   padding: 30px;
   justify-content: center;
 }
-.contimg1{
+
+.contimg1 {
   display: grid;
   grid-template-columns: 1;
   gap: 10px;
 }
 
-.botonCarro1{
+.botonCarro1 {
   display: flex;
   background-color: rgb(255, 123, 0);
   width: 500px;
 }
 
-.botonCarro2{
+.botonCarro2 {
   float: right;
   padding: 8px 12px;
   margin: 8px 0 0;
@@ -236,25 +251,157 @@ footer {
   cursor: pointer;
   transition: all .3s
 }
-.botonCarro2:hover{
+
+.botonCarro2:hover {
   background: black;
   color: rgb(255, 123, 0);
 }
 
-.tituloP{
+.tituloP {
   color: black;
-}
-.precio{
-  color: black;
+  font-size: large;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.descCard{
+.precio {
+  color: black;
+  font-size: large;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.descCard {
   display: flex;
   width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.mothers{
+
+.mothers {
   margin-bottom: 10px;
 }
+
+
+
+
+
+
+
+
+
+/*---Prueba de copiado de animacion---
+
+      <div class="view">
+         <div class="plane main">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+         </div>
+      </div>
+
+
+.view {
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  perspective: 400;
+}
+
+.plane {
+  width: 120px;
+  height: 120px;
+  transform-style: preserve-3d;
+}
+
+.plane.main {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateX(60deg) rotateZ(-30deg);
+  -webkit-animation: rotate 20s infinite linear;
+  animation: rotate 20s infinite linear;
+}
+
+.plane.main .circle {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  transform-style: preserve-3d;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 0 60px aqua, inset 0 0 60px aqua;
+}
+
+.plane.main .circle::before,
+.plane.main .circle::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+  background: aqua;
+  box-sizing: border-box;
+  box-shadow: 0 0 60px 2px aqua;
+}
+
+.plane.main .circle::before {
+  transform: translateZ(-90px);
+}
+
+.plane.main .circle::after {
+  transform: translateZ(90px);
+}
+
+.plane.main .circle:nth-child(1) {
+  transform: rotateZ(72deg) rotateX(63.435deg);
+}
+
+.plane.main .circle:nth-child(2) {
+  transform: rotateZ(144deg) rotateX(63.435deg);
+}
+
+.plane.main .circle:nth-child(3) {
+  transform: rotateZ(216deg) rotateX(63.435deg);
+}
+
+.plane.main .circle:nth-child(4) {
+  transform: rotateZ(288deg) rotateX(63.435deg);
+}
+
+.plane.main .circle:nth-child(5) {
+  transform: rotateZ(360deg) rotateX(63.435deg);
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotateX(0) rotateY(0) rotateZ(0);
+  }
+
+  100% {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0) rotateY(0) rotateZ(0);
+  }
+
+  100% {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+*/
