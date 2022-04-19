@@ -268,7 +268,7 @@ footer {
   margin-bottom: 10px;
 }
 
-
+/*    GRIDindex     */
 
 .grid1{
   display: grid;
@@ -278,6 +278,9 @@ footer {
 }
 
 /*     MediaQ     */
+
+
+
 @media screen and (max-width: 768px){ 
   .barraNavegacion{
     margin-left: 20%;
@@ -336,6 +339,42 @@ footer {
       width: min-content;
     }
   }
+@media screen and (max-width: 320px){
+  .parrafo1{
+    font-size: small;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .videos{
+    padding-left: 85px;
+  }
+
+  .iframeVideo{
+    width: 100px;
+    height: 100px;
+    padding-left: 5px;
+  }
+  .nuestrosProyectos{
+    font-size: large;
+  }
+  .img1{
+  padding-left: 95px;
+  }
+  .imgPcs{
+    width: 100px;
+    height: 100px;
+  }
+
+  .botonCarro1{
+   width: 300px;
+  }
+
+  .tituloP{
+    padding-left: 35px;
+  }
+
+  
+}
 
 
 
@@ -345,8 +384,7 @@ footer {
 
 
 
-
-/*---Prueba de copiado de animacion---
+/*---Prueba animacion---
 
       <div class="view">
          <div class="plane main">
