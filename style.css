@@ -63,23 +63,13 @@ nav {
 
 
 /*--------IMAGENES PCS---*/
-
-.img1 {
-  display: block;
-  margin-left: 100px;
-}
-
-.pc5 {
-  padding-left: 100px;
-}
-
-.pc6 {
-  padding-left: 100px;
+.videos{
+  padding-left: 37px;
 }
 
 /*--------PARRAFOS-------*/
 .parrafo1 {
-  text-align: left;
+  text-align: center;
   color: rgb(255, 123, 0);
   padding-top: 40px;
   font-family: 'Cinzel', serif;
@@ -137,10 +127,7 @@ footer {
 }
 
 /*--------VIDEOS--------*/
-.videos {
-  display: flex;
 
-}
 
 /*--------CONTACTO------*/
 .tituloContacto {
@@ -280,6 +267,76 @@ footer {
 .mothers {
   margin-bottom: 10px;
 }
+
+
+
+.grid1{
+  display: grid;
+  grid-template-columns: 500px;
+  justify-content: center;
+  object-position: center;
+}
+
+/*     MediaQ     */
+@media screen and (max-width: 768px){ 
+  .barraNavegacion{
+    margin-left: 20%;
+ }
+  .barraNavegacion__lista{ 
+    display: grid;
+    grid-template-columns: 7px 7px 7px 7px 7px;
+    column-gap: 80px;
+    font-size: small;
+  }
+  header{
+    position: initial;
+   }
+  .logo{
+    padding-right: 15px;
+  }
+
+  }
+
+
+  @media screen and (max-width: 425px){
+    .barraNavegacion{
+       margin-left: 36%;
+    }
+
+    .barraNavegacion__lista{ 
+      display: grid; 
+      grid-template-columns: 10px;
+      column-gap: 80px;
+      font-size: small;
+    }
+
+
+    .tituloReactor{
+      font-size: small;
+    }
+
+    .parrafo1{
+      font-size: small;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .videos{
+      padding-left: 50px;
+    }
+    .img1{
+      padding-left: 15px;
+    }
+
+    header{
+      position: initial;
+     }
+    .mapa{
+      height: min-content;
+      width: min-content;
+    }
+  }
+
 
 
 
