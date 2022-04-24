@@ -384,21 +384,13 @@ footer {
 
 
 
-/*---Prueba animacion---
 
-      <div class="view">
-         <div class="plane main">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-         </div>
-      </div>
 
+/*   ANIMACION     */
 
 .view {
+  margin-top: 100px;
+  margin-bottom: 100px;
 
   top: 0;
   left: 0;
@@ -499,4 +491,3 @@ footer {
     transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
   }
 }
-*/
