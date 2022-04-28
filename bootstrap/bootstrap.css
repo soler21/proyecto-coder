@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+.header{
+   
+    background-color: rgb(255, 123, 0);
+    
+}
+.nav-link{
+    font-size: 18px;
+}
+.titulos1{
+    color: rgb(255, 123, 0);
+}
+.dropdown-menu{
+    background-color: rgb(255, 123, 0);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.texto-lorem{
+    color: rgb(255, 123, 0);
+    font-size: small;
+    padding-left: 650px;
+    padding-right: 650px;
+    text-align: center;
+}
+.textoContactos {
+    color: rgb(255, 123, 0);
+    font-family: 'Cinzel', serif;
+  }
+  .footerContactos {
+    text-align: center;
+  }
+  
+  
+  footer {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Cinzel', serif;
+  }
+  .card-body{
+      color: rgb(255, 123, 0);
+      text-align: center;
+  }
+ .card{
+     margin: auto;
+ }
+ 
