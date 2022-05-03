@@ -1,0 +1,188 @@
+body{
+    background-color: black;
+}
+
+.header{
+    background-color: rgb(255, 123, 0);
+    
+}
+.nav-link{
+    font-size: 18px;
+}
+.titulos1{
+    color: rgb(255, 123, 0);
+}
+.dropdown-menu{
+    background-color: rgb(255, 123, 0);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.texto-lorem{
+    color: rgb(255, 123, 0);
+    font-size: small;
+    padding-left: 650px;
+    padding-right: 650px;
+    text-align: center;
+}
+.textoContactos {
+    color: rgb(255, 123, 0);
+    font-family: 'Cinzel', serif;
+  }
+  .footerContactos {
+    text-align: center;
+  }
+  
+  
+  footer {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Cinzel', serif;
+  }
+  .card-body{
+      color: rgb(255, 123, 0);
+      text-align: center;
+  }
+ .card{
+     margin: auto;
+ }
+ .mb-3{
+     color: rgb(255, 123, 0);
+     text-align: center;
+     padding-left: 50px;
+     padding-right: 50px;
+ }
+ .btn{
+     color: black;
+ }
+ .gap-2{
+     color: rgb(255, 123, 0);
+     margin: auto;
+     width: 100px;
+ }
+ .form-check{
+     color: rgb(255, 123, 0);
+ }
+.form-label{
+    color: rgb(255, 123, 0);
+}
+.col-md-6{
+    text-align: center;
+}
+.col-md-4{
+    text-align: center;
+}
+.col-12{
+    text-align: center;
+}
+.col-md-2{
+    text-align: center;
+}
+
+
+/*ANIMACION*/
+.vista {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    perspective: 400;
+  }
+  
+  .plano {
+    width: 120px;
+    height: 120px;
+    transform-style: preserve-3d;
+  }
+  
+  .plano.main {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotateX(60deg) rotateZ(-30deg);
+    -webkit-animation: rotate 20s infinite linear;
+    animation: rotate 20s infinite linear;
+  }
+  
+  .plano.main .circle {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    transform-style: preserve-3d;
+    border-radius: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 0 60px aqua, inset 0 0 60px aqua;
+  }
+  
+  .plano.main .circle::before,
+  .plano.main .circle::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+    background: aqua;
+    box-sizing: border-box;
+    box-shadow: 0 0 60px 2px aqua;
+  }
+  
+  .plano.main .circle::before {
+    transform: translateZ(-90px);
+  }
+  
+  .plano.main .circle::after {
+    transform: translateZ(90px);
+  }
+  
+  .plano.main .circle:nth-child(1) {
+    transform: rotateZ(72deg) rotateX(63.435deg);
+  }
+  
+  .plano.main .circle:nth-child(2) {
+    transform: rotateZ(144deg) rotateX(63.435deg);
+  }
+  
+  .plano.main .circle:nth-child(3) {
+    transform: rotateZ(216deg) rotateX(63.435deg);
+  }
+  
+  .plano.main .circle:nth-child(4) {
+    transform: rotateZ(288deg) rotateX(63.435deg);
+  }
+  
+  .plano.main .circle:nth-child(5) {
+    transform: rotateZ(360deg) rotateX(63.435deg);
+  }
+  
+  @-webkit-keyframes rotate {
+    0% {
+      transform: rotateX(0) rotateY(0) rotateZ(0);
+    }
+  
+    100% {
+      transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateX(0) rotateY(0) rotateZ(0);
+    }
+  
+    100% {
+      transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+  }

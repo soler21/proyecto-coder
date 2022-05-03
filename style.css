@@ -380,7 +380,7 @@ footer {
 
 /*   ANIMACION     */
 
-.view {
+.vista {
   margin-top: 100px;
   margin-bottom: 100px;
 
@@ -391,13 +391,13 @@ footer {
   perspective: 400;
 }
 
-.plane {
+.plano {
   width: 120px;
   height: 120px;
   transform-style: preserve-3d;
 }
 
-.plane.main {
+.plano.main {
   top: 0;
   left: 0;
   right: 0;
@@ -408,7 +408,7 @@ footer {
   animation: rotate 20s infinite linear;
 }
 
-.plane.main .circle {
+.plano.main .circle {
   width: 120px;
   height: 120px;
   position: absolute;
@@ -418,8 +418,8 @@ footer {
   box-shadow: 0 0 60px aqua, inset 0 0 60px aqua;
 }
 
-.plane.main .circle::before,
-.plane.main .circle::after {
+.plano.main .circle::before,
+.plano.main .circle::after {
   content: "";
   display: block;
   position: absolute;
@@ -436,31 +436,31 @@ footer {
   box-shadow: 0 0 60px 2px aqua;
 }
 
-.plane.main .circle::before {
+.plano.main .circle::before {
   transform: translateZ(-90px);
 }
 
-.plane.main .circle::after {
+.plano.main .circle::after {
   transform: translateZ(90px);
 }
 
-.plane.main .circle:nth-child(1) {
+.plano.main .circle:nth-child(1) {
   transform: rotateZ(72deg) rotateX(63.435deg);
 }
 
-.plane.main .circle:nth-child(2) {
+.plano.main .circle:nth-child(2) {
   transform: rotateZ(144deg) rotateX(63.435deg);
 }
 
-.plane.main .circle:nth-child(3) {
+.plano.main .circle:nth-child(3) {
   transform: rotateZ(216deg) rotateX(63.435deg);
 }
 
-.plane.main .circle:nth-child(4) {
+.plano.main .circle:nth-child(4) {
   transform: rotateZ(288deg) rotateX(63.435deg);
 }
 
-.plane.main .circle:nth-child(5) {
+.plano.main .circle:nth-child(5) {
   transform: rotateZ(360deg) rotateX(63.435deg);
 }
 
