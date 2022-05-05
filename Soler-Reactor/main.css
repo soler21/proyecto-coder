@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+}
+
+body .header {
+  background-color: #ff7b00;
+}
+
+body .header .dropdown-menu {
+  background-color: #ff7b00;
+}
+
+body .header .nav-link {
+  font-size: 18px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.texto-lorem {
+  color: #ff7b00;
+  font-size: small;
+  padding-left: 650px;
+  padding-right: 650px;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Cinzel', serif;
+}
+
+footer .footerContactos {
+  text-align: center;
+}
+
+footer .footerContactos .textoContactos {
+  color: #ff7b00;
+  font-family: 'Cinzel', serif;
+}
+
+.card {
+  margin: auto;
+}
+
+.card .card-body {
+  color: #ff7b00;
+  text-align: center;
+}
+
+.card .titulos1 {
+  color: #ff7b00;
+}
+/*# sourceMappingURL=main.css.map */
