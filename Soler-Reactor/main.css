@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #000000;
 }
 
 body .header {
@@ -32,7 +32,7 @@ body .header .nav-link {
 }
 
 footer {
-  background-color: black;
+  background-color: #000000;
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: 'Cinzel', serif;
